@@ -1,0 +1,125 @@
+*{
+    width: 200px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color : #333;
+    
+}
+.price{
+    font-size: 50px;
+    margin-bottom: 0px;
+    
+}
+.box h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+    
+}
+#box-2 .price {
+    color: rgb(248, 117, 117);
+}
+.box h3{
+    display: flex;
+    margin-left: 15px ;
+    padding:  0px 5px;
+
+}
+.box h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px ;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box{
+    margin-left: 20px;
+     border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    flex: 1;
+    border: 3px solid black;
+    position: relative;
+    margin-top: 46px;
+}
+#box-2{
+    height: auto;
+    margin-bottom: 100px;
+    padding-bottom: 125px;
+}
+.container{
+    max-height: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+hr{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    width: 140px;
+    margin-left: 25px;
+}
+/* Title badge placed on the second card */
+#box-2 .title{
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(247, 122, 122);
+    color: white;
+    font-size: 13px;
+    padding: 6px 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+h4{
+    font-size: 14px;
+}
+#box-2 button{
+    background-color:rgb(247, 122, 122);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+}
+button{
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px; 
+}
+.box:hover{
+    box-shadow: 0 5px 10px rgb(97, 96, 96, 0.75);
+    transform: translateY(-10px);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+#box-2 h3:hover{
+    color: blueviolet;
+}
+button:hover{
+    box-shadow: 0 5px 10px rgb(97, 96, 96, 2);
+    transform: translateY(-10px);
+    transition: transform 1s ease, box-shadow 1s ease;
+    background-color: black;
+    color: white;
+}
+#box-2 button:hover{
+    background-color: blueviolet;
+}
